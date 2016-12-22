@@ -1,0 +1,27 @@
+/*hiromaily*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#000;
+}
+div, p , img, canvas{
+  /*position: absolute;*/
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+}
+div{position: absolute;}
+
+/* stage */
+#stage {
+ position: relative;
+ /*width: 320px;*/
+ /*height: 320px;*/
+ background: #000;
+ overflow: hidden; /*拡大したときにはみ出した部分を表示しない*/
+}
+
+#stage_canvas {
+
+}
